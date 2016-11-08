@@ -1,0 +1,14 @@
+Very simple bare bones DropBox files downloader for my good ol' Pocket Book Pro 912
+
+Usage:
+1. Copy DropBoxSync.app to /applications
+2. Create an app on DropBox Developer site and generate an API key
+3. Edit DropBoxSync.json so that api_key is set to the generated api key and
+   sync_dir is set to the desired download path (e.g. /mnt/ext1/Books/DropBox)
+4. Copy DropBoxSync.json to profile config path (/mnt/ext1/system/profile/default/config/ for PB 912)
+
+Restrictions:
+1. Download only
+2. No subfolders, files only
+3. No file updates, existing files are untouched even if the ones in the cloud are newer
+

@@ -1,0 +1,4 @@
+{
+    "api_key" : "<drop box v2 api key>",
+    "sync_dir" : "<download folder path>"
+}
